@@ -3,4 +3,7 @@
 A mentés működik a tanári modulon.
 Az előző gombot csináltam, de nincs kész.
 
+A weboldal title értéke nem veszi figyelembe
+a config.php tartalmát.
+
 http://localhost/compsa/don/
