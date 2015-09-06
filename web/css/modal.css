@@ -1,0 +1,43 @@
+.modalisKulso {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 2147483647;
+	background-color: rgba(0, 0, 0, 0.7);
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 500ms ease-in;
+}
+.modalisKulso:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+ 
+.modalisBelso {    
+    background: linear-gradient(#fff, #999);
+    margin: 10%;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    font-family: sans-serif;
+    text-align: center;
+ 
+}
+.bezar {
+    text-decoration: none; 
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    background-color: dimgray;
+    border-radius: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    box-shadow: 1px 1px 3px black;
+}
+.bezar:hover {
+    background-color:aqua;   
+}
